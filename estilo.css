@@ -6,6 +6,11 @@
 
 h1 .marketing{
     font-size:4rem;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
     font-weight:bold;
+}
+
+.marketing::hover{
+    color:rgb(127, 255, 212);
+    
 }

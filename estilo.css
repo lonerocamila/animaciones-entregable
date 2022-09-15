@@ -10,9 +10,27 @@ h1 .marketing{
     font-weight:bold;
 }
 
-.marketing::hover{
+.img{
+    transform: translate(368deg);
+}
+div .beneficios {
+    background-image: linear-gradient(blueviolet, violet);
+}
+.marketing:hover{
     color:rgb(127, 255, 212);
     
+}
+.img:hover{
+    scale: (0.5, 0.5);
+    transition: all 3s ease;
+
+}
+
+.img{
+    width: 100%;
+    max-width: 400px;
+    border: 2px double;
+    background-color: aliceblue;
 }
 
 /*inicio MQ*/

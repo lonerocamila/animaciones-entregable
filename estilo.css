@@ -17,7 +17,8 @@ h1 .marketing{
 
 /*inicio MQ*/
 @media only screen and (max-width: 768px) {
-    display: grid;
+    scroll-behavior: smooth;
+    display:grid;
     grid-template-columns:4fr;
     grid-template-row:4fr;
 }

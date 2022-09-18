@@ -8,7 +8,10 @@ h1 .marketing{
     font-size:4rem;
     color: rgb(138, 43, 226);
     font-weight:bold;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
 }
 
 .img{
@@ -19,7 +22,7 @@ div .beneficios {
 }
 .marketing:hover{
     color:rgb(127, 255, 212);
-    
+   
 }
 .img:hover{
     scale: (0.5, 0.5);

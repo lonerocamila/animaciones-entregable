@@ -13,34 +13,49 @@
 </head>
 <!-- INICIO body-->
 <body>
-<h1 class="marketing">
-    Curiosidades del marketing
-</h1>
-     
+
     
 <!--INICIO menu con bootsrap-->
 <div class="menu">
   
  <form action="menu">
-    <ul>
-        <nav class="navbar" style="background-color:#b51bc94b;">
-              <a class="link-light" href="./index.html">  Inicio </a>
-          </nav>
-          <nav class="navbar" style="background-color:#b41bc9;"></nav>
-              <a class="link-drak" href=./noticias.html">Noticias</a>
-          </nav>
-          <nav class="navbar" style="background-color: #b41bc9;">
-               <a class="link-light" href="./galeria.html" .bg-bisque;">Galeria</a>
-          </nav>
-          <nav class="navbar" style="background-color: #b41bc9;">
-              <a class="link-light" href="./nosotros.html">Nosotros</a>
-          </nav>
-
-          <nav class="navbar" style="background-color: #b41bc9;">
-             <a class="link-light" href="./contactanos.html">Contactanos </a>
-
-          </nav>
-    </ul>
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(138, 43, 226)";>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <h1 class="marketing">
+        Curiosidades del marketing
+    </h1> </a>
+    <div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./noticias.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Noticias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">analisis del mercado</a></li>
+              <li><a class="dropdown-item" href="#">Marketing digital</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Top 10</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+          </li>
+        </div>
+    </div>
+  </nav>
  </form>
 </div>
 <!---FIN menu con bootsrap-->
